@@ -1,0 +1,387 @@
+html {
+	height: 100%;
+}
+
+body {
+    padding: 0;
+	margin: 0;
+	font-size: 14px;
+	display: inline;
+}
+
+
+/* textes & typos */
+
+h2{ /* utilisé pour les titres dans le cadre en haut */
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 900;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #000;
+	text-align: left;
+	margin: 0;
+}
+
+h2def{ /* utilisé pour les titres dans le cadre en haut */
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 900;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #000;
+	text-align: left;
+	margin: 0;
+	float: left;
+}
+
+h3{ /* utilisé pour les textes dans le cadre en haut */
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #000;
+	text-align: left;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+a:hover{
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 900;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #000;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin: 0;
+}
+
+a:visited {
+	color: #000;
+}
+
+
+
+p{ /* utilisé pour le corps de texte des légendes*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #000;
+	text-align: left;
+	margin: 0;
+}
+
+pdef{ /* utilisé pour le corps de texte des légendes*/
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #000;
+	text-align: left;
+	margin: 0;
+	float: left;
+}
+
+.img-vignette {
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	filter: none;
+	filter: grayscale(100%);
+	-moz-filter:    grayscale(100%);
+	-ms-filter:     grayscale(100%);
+	-o-filter:      grayscale(100%);
+	cursor: pointer;
+	transition: all 300ms ease;
+}
+
+.img-vignette:hover {
+	filter: none;
+	filter: grayscale(0%);
+	-moz-filter:    grayscale(0%);
+	-ms-filter:     grayscale(0%);
+	-o-filter:      grayscale(0%);
+}
+
+
+
+
+/* Mobile / Tablet (900px and down) */
+@media only screen and (max-width: 900px) {
+
+	.navmobile {
+		padding: 0 0 0 0;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		font-size: 20px;
+	}
+
+	.navdesktop {
+		display: none;
+	}
+
+	h1{ /* utilisé pour la présentation du studio */
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+		font-size: 1.2em;
+		line-height: 1.3em;
+		color: #000;
+		text-align: left;
+		margin: 0;
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+	}
+
+	.btn {
+		margin-top: 1.6em;
+		border: 1px solid black;
+		background-color: white;
+		padding: 14px 28px;
+		cursor: pointer;
+		font-family: 'Source Code Pro', monospace;
+		font-weight: 400;
+		text-decoration: none;
+		color: #000;
+		font-size: 1em;
+		line-height: 1.4em;
+	  }
+	  
+	  .btn:hover {
+		margin-top: 1.6em;
+		border: 1px solid black;
+		background-color: #000;
+		color: white !important;
+		font-family: 'Source Code Pro', monospace;
+		font-weight: 900;
+		font-size: 1em;
+		line-height: 1.4em;
+		color: #fff;
+		text-align: left;
+	  }
+
+	
+	btn:visited {
+		color: #fff;
+	}
+
+
+
+	#top {
+		background: transparent;
+		background-color: rgba(255, 255, 255, 0.96);
+		padding-top: 3vh;
+		padding-left: 3vw;
+		padding-right: 3vw;
+		padding-bottom: 3vh;
+	}
+
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 3vw;
+		min-width: 3vw;
+		max-width: 3vw;
+	}
+
+	#toggle {
+		display: flex;
+		height: 80%;
+		padding-top: 2vw; 
+		cursor: pointer;
+	}
+
+
+	.grid-item {
+		height: auto;
+		flex: 1;
+		border: none;
+		padding-left: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	.first {
+		height: 12vh;
+		min-height: 12vh;
+		max-height: 12vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}	
+
+
+	/* vignettes projets */
+
+	.texte{
+		margin-top: 0;
+		margin-right: 0;
+		margin-left: 0;
+		margin-bottom: 20px;
+		width: 93vw;
+		max-width: 93vw;
+		min-width: 93vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		
+	}
+
+	.projets-pond {
+		margin-top: 18vh;
+		padding-left: 3vw;
+		padding-right: 3vw;
+		padding-bottom: 3vw;
+		overflow: scroll;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		/*flex-wrap: wrap;*/
+	}
+		
+	.projet{
+		margin-top: 0;
+		margin-right: 0;
+		margin-left: 0;
+		margin-bottom: 3vw;
+		float: left; 
+		width: 94vw;
+		min-width: 94vw;
+		max-width: 94vw;
+		font-size: 16px;
+	}
+		
+	.projet-def {
+		padding-top: 3px;
+	}
+		
+
+	.img-vignette {
+		filter: none;
+		cursor: pointer;
+	}
+
+	#collapse {
+		height: 0;
+		max-height: 0;
+		min-height: 0;
+		overflow: hidden;
+		display: block;
+		transition: height 1s ease;
+		transition: min-height 1s ease;
+	}
+
+	.on {
+		height: 100vh !important;
+		max-height: 100vh !important;
+		min-height: 100vh !important;
+	}
+
+	
+
+	/* pages projets */
+
+	.projets-pond-expand {
+		margin-top: 18vh;
+		padding-top: 0;
+		padding-left: 3vw;
+		padding-right: 3vw;
+		padding-bottom: 0vw;
+		height: auto;
+		overflow: scroll;
+		display: flex;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;
+    	flex-direction: column;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		filter: blur(0);
+		-webkit-transition: all 300ms ease;
+   		-moz-transition: all 300ms ease;
+    	-o-transition: all 300ms ease;
+		transition: all 300ms ease;
+	}
+
+	.projet-expand{
+		margin: 0;
+		float: left;
+		width: 94vw;
+		min-width: 94vw;
+		max-width: 94vw;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.projet-def-expand{
+		font-size: 0.8em;
+		line-height: 1.5em;
+		margin: 0;
+		padding: 5px 0; 
+		float: left;
+		width: 94vw;
+		min-width: 94vw;
+		max-width: 94vw;
+		display: flex;
+		-ms-flex-direction: column;
+    	flex-direction: column;
+		flex-direction: column;
+	}
+
+	.img-projet{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		padding-bottom: 3vw;
+	}
+
+	.img-next-projet{
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+	}
+
+	.header {
+		display: -ms-flexbox;
+    	display: flex;
+		display: flex;
+	}
+
+	.unfocus{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 1000%;
+		width: 100%;
+		min-width: 100%;
+		max-width: 100%;
+		z-index: 998;
+
+	}
+	
+	.active {
+		filter: blur(5px);
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
