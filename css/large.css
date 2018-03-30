@@ -6,7 +6,9 @@ body {
     padding: 0;
 	margin: 0;
 	font-size: 14px;
-	display: inline;
+	height: 100%;
+	display: block;
+	overflow: scroll;
 }
 
 
@@ -231,19 +233,16 @@ pdef{ /* utilisé pour le corps de texte des légendes*/
 		height: 100vh;
 		margin: auto;
 		padding: 0;
-		overflow: hidden;
-		display: flex;
+		/* display: flex;
 		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-between;
+		flex-wrap: wrap; */
 	}
 
 	.projet-expand{
 		margin: 125px;
 		margin-right: 0;
-		margin-left: 0;
+		margin-left: 300px;
 		margin-bottom: 0;
-		float: left; 
 		width: 890px;
 		max-width: 890px;
 		min-width: 890px;
@@ -255,7 +254,7 @@ pdef{ /* utilisé pour le corps de texte des légendes*/
 		margin-right: 0;
 		margin-left: 0;
 		margin-bottom: 3vh;
-		float: left;
+		position: fixed;
 		width: 280px;
 		max-width: 280px;
 		min-width: 280px;
@@ -271,6 +270,52 @@ pdef{ /* utilisé pour le corps de texte des légendes*/
 		display: flex;
 		justify-content: space-between;
 	}	
+
+	#histoire {
+		width: 1200px;
+		max-width: 1200px;
+		min-width: 1200px;
+		margin: auto;
+		padding-top: 125px;
+		padding-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+	#left-column {
+		width: 580px;
+		margin: 0px;
+		padding-right: 10px;
+	}
+	
+	
+	#right-column {
+		width: 580px;
+		margin: 0px;
+		padding-left: 10px;
+	}
+	
+	#histoire div{
+		flex: 1;
+	}
+	
+	#right-column div {
+		flex: 1;
+	}
+	
+	#biographies {
+		display: flex;	
+		flex-direction: row;
+	}
+	
+	#marine {
+		padding-right: 0.75vw;
+	}
+	
+	#louise {
+		padding-left: 0.75vw;
+	}
 
 }
 
