@@ -206,7 +206,7 @@ pdef{ /* utilisé pour le corps de texte des légendes*/
 		margin: auto;
 		padding-top: 125px;
 		padding-bottom: 20px;
-		overflow: scroll;
+		/*overflow: scroll;*/
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -261,7 +261,8 @@ pdef{ /* utilisé pour le corps de texte des légendes*/
 		min-width: 280px;
 		display: flex;
 		flex-direction: column;
-		overflow: scroll;
+		overflow-x: hidden;
+		overflow-y: visible;
 	}
 
 	.first {

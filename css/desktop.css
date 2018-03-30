@@ -194,9 +194,9 @@ pdef{ /* utilisé pour le corps de texte des légendes*/
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		width: 47.75vw;
-		max-width: 47.75vw;
-		min-width: 47.75vw;
+		width: 46.5vw;
+		max-width: 46.5vw;
+		min-width: 46.5vw;
 	}
 
 	.projets-pond {
@@ -204,18 +204,19 @@ pdef{ /* utilisé pour le corps de texte des légendes*/
 		padding-left: 0.75vw;
 		padding-right: 0.75vw;
 		padding-bottom: 2vw;
-		overflow: scroll;
+		/*overflow: scroll;*/
 		display: flex;
 		flex-direction: row;
+		justify-content: space-between;
 		flex-wrap: wrap;
 	}
 		
 	.projet{
 		margin: 0.75vw;
 		float: left; 
-		width: 47.75vw;
-		min-width: 47.75vw;
-		max-width: 47.75vw;
+		width: 46.5vw;
+		min-width: 46.5vw;
+		max-width: 46.5vw;
 	}
 		
 	.projet-def {

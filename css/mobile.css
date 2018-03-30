@@ -241,7 +241,7 @@ pdef{ /* utilisé pour le corps de texte des légendes*/
 		padding-left: 3vw;
 		padding-right: 3vw;
 		padding-bottom: 3vw;
-		overflow: scroll;
+		/*overflow: scroll;*/
 		display: -ms-flexbox;
 		display: flex;
 		-ms-flex-direction: column;
