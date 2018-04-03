@@ -114,15 +114,34 @@ filter: grayscale(0%);
 /* Mobile / Tablet (900px and down) */
 @media only screen and (max-width: 900px) {
 
+#top {
+	/*background-color: rgba(255, 255, 255, 0.96);*/
+	padding-top: 3vh;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	padding-bottom: 3vh;
+}
+
+#left, #right {
+	top: 0; bottom: 0;
+	width: 3vw;
+	min-width: 3vw;
+	max-width: 3vw;
+}
+
+
 .navmobile {
 	padding: 0 0 0 0;
 	width: 100%;
 	min-width: 100%;
 	max-width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	font-size: 20px;
+	height: auto;
+	min-height: auto;
+	max-height: auto;
+	display: block;
+	/*flex-direction: row;
+	justify-content: space-between;*/
+	/*font-size: 20px;*/
 }
 
 .navdesktop {
@@ -175,49 +194,39 @@ btn:visited {
 
 
 
-#top {
-	background: transparent;
-	background-color: rgba(255, 255, 255, 0.96);
-	padding-top: 3vh;
-	padding-left: 3vw;
-	padding-right: 3vw;
-	padding-bottom: 3vh;
-}
 
-#left, #right {
-	top: 0; bottom: 0;
-	width: 3vw;
-	min-width: 3vw;
-	max-width: 3vw;
+
+#logo {
+	height: 60px;
 }
 
 #toggle {
-	display: flex;
-	height: 80%;
-	padding-top: 2vw; 
+	height: 60px;
+	display: block;
+	padding-top: 4px;
 	cursor: pointer;
 }
 
 
 .grid-item {
 	height: auto;
-	flex: 1;
+	/*flex: 1;*/
 	border: none;
 	padding-left: 0;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	overflow: hidden;
+	flex-direction: row;
+	justify-content: space-between;
+	/*overflow: hidden;*/
 }
 
-.first {
+/*.first {
 	height: 12vh;
 	min-height: 12vh;
 	max-height: 12vh;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-}	
+}	*/
 
 
 /* vignettes projets */
@@ -279,6 +288,8 @@ btn:visited {
 	display: block;
 	transition: height 1s ease;
 	transition: min-height 1s ease;
+	background-color: rgba(255, 255, 255, 0.96);
+	font-size: 20px;
 }
 
 .on {
@@ -399,15 +410,16 @@ btn:visited {
 
 #biographies {
 	display: flex;	
-	flex-direction: row;
+	flex-direction: column;
 }
 
 #marine {
-	padding-right: 0.75vw;
+	padding-right: 0;
+	padding-bottom: 20px; 
 }
 
 #louise {
-	padding-left: 0.75vw;
+	padding-left: 0;
 }
 
 
