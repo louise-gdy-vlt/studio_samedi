@@ -6,7 +6,6 @@ body {
 padding: 0;
 margin: 0;
 font-size: 14px;
-/*display: inline;*/
 }
 
 
@@ -105,7 +104,6 @@ cursor: pointer;
 @media only screen and (max-width: 900px) {
 
 #top {
-	/*background-color: rgba(255, 255, 255, 0.96);*/
 	padding-top: 12px;
 	padding-left: 3vw;
 	padding-right: 3vw;
@@ -129,9 +127,6 @@ cursor: pointer;
 	min-height: auto;
 	max-height: auto;
 	display: block;
-	/*flex-direction: row;
-	justify-content: space-between;*/
-	/*font-size: 20px;*/
 }
 
 .navdesktop {
@@ -183,9 +178,6 @@ btn:visited {
 }
 
 
-
-
-
 #logo {
 	height: 60px;
 }
@@ -200,24 +192,12 @@ btn:visited {
 
 .grid-item {
 	height: auto;
-	/*flex: 1;*/
 	border: none;
 	padding-left: 0;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	/*overflow: hidden;*/
 }
-
-/*.first {
-	height: 12vh;
-	min-height: 12vh;
-	max-height: 12vh;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}	*/
-
 
 /* vignettes projets */
 
@@ -240,12 +220,8 @@ btn:visited {
 	padding-left: 3vw;
 	padding-right: 3vw;
 	padding-bottom: 3vw;
-	/*overflow: scroll;*/
-	/* display: -ms-flexbox; */
 	display: flex;
-	/* -ms-flex-direction: column; */
 	flex-direction: column;
-	/*flex-wrap: wrap;*/
 }
 	
 .projet{
@@ -299,14 +275,6 @@ btn:visited {
 	padding-left: 3vw;
 	padding-right: 3vw;
 	height: 100%;
-	/*overflow: scroll;*/
-	/*display: flex;*/
-	/*flex-direction: column;*/
-	/* flex-wrap: wrap; */
-	/* -webkit-transition: all 300ms ease;
-	-moz-transition: all 300ms ease;
-	-o-transition: all 300ms ease;
-	transition: all 300ms ease; */
 }
 
 .projet-expand{
@@ -316,8 +284,6 @@ btn:visited {
 	min-width: 93vw;
 	max-width: 93vw;
 	padding-bottom: 5px;
-	/*display: flex;*/
-	/*flex-direction: column;*/
 	height: 100%;
 }
 
@@ -331,10 +297,6 @@ btn:visited {
 	min-width: 93vw;
 	max-width: 93vw;
 	position: relative;
-	/*display: flex;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	flex-direction: column;*/
 }
 
 .img-projet{
@@ -406,9 +368,6 @@ btn:visited {
 #louise {
 	padding-left: 0;
 }
-
-
-
 
 }
 
